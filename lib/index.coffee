@@ -9,9 +9,9 @@ pnrNumber = Number argv._[0]
 
 #Algorithms
 onStatusRecieved = (status)->
-	pnrStatus.stop() if status.data.char_prepared is true
+	pnrStatus.stop() if status.data.chart_prepared is true
 	Logger.log status
 
-pnrStatus = new Pnr pnrNumber, onStatusRecieved, 10
+pnrStatus = new Pnr pnrNumber, onStatusRecieved
 pnrStatus.start()
 

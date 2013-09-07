@@ -12,7 +12,7 @@ exports.log  =  _log = (pnrstatus) ->
 	#print pnrstatus
 	if pnrstatus.data.chart_prepared is true
 		clearl()
-		print 'Chart prepared.'
+		print '*** Chart prepared ***'
 		
 		print ''
 		d = pnrstatus.data
