@@ -12,8 +12,9 @@ npm install -g pnr-status
 ##Usage
 
 Simple pass the PNR number as a parameter to the ```pnr-status``` command.
+
 ```bash
 pnr-status 8216477093
-
+```
 
 Checkout [tusharmath.github.io](http://tusharmath.github.io/articles/pnr-status) for more information.
