@@ -1,6 +1,6 @@
 {
 	"name": "pnr-status",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "The best module ever.",
 	"homepage": "https://github.com/tusharmath/pnr-status",
 	"bugs": "https://github.com/tusharmath/pnr-status/issues",
@@ -21,7 +21,6 @@
 	}],
 	"devDependencies": {
 		"minimist": "0.0.x",
-		"coffee-script": "*",
 		"moment": "*"
 	}
 }

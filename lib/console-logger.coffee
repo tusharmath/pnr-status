@@ -23,9 +23,7 @@ exports.log  =  _log = (pnrstatus) ->
 		print "Train: #{d.train_name} (No. #{d.train_number})"
 		print 'Seats - '
 		for passenger in pnrstatus.data.passenger
-			print "\t#{passenger.status}"
-		
-	
+			print "\t#{passenger.status}"	
 	else
 		clearl()
 		ctime = moment().format('DD-MMM-YYYY h:mm:ss a')
