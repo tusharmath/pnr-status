@@ -10,7 +10,7 @@
 		"url": "http://tusharm.com"
 	},
 	"bin": {
-		"pnr-status": "main"
+		"pnr-status": "./cli/pnr-status"
 	},
 	"repository": {
 		"type": "git",
@@ -19,8 +19,9 @@
 	"licenses": [{
 		"type": "MIT"
 	}],
-	"devDependencies": {
+	"dependencies": {
 		"minimist": "0.0.x",
-		"moment": "*"
+		"moment": "*",
+		"coffee-script": "*"
 	}
 }
