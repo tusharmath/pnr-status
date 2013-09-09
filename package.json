@@ -4,6 +4,7 @@
 	"description": "The best module ever.",
 	"homepage": "https://github.com/tusharmath/pnr-status",
 	"bugs": "https://github.com/tusharmath/pnr-status/issues",
+	"preferGlobal": true,
 	"author": {
 		"name": "tushar mathur",
 		"email": "tusharmath@gmail.com",
@@ -12,6 +13,8 @@
 	"bin": {
 		"pnr-status": "./cli/pnr-status"
 	},
+	"main": "./lib/pnr-status.coffee",
+	"keywords": ["cli", "pnr", "status", "irctc", "railway"],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/tusharmath/pnr-status"
