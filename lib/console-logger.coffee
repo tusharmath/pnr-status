@@ -1,9 +1,11 @@
 'use strict'
 moment = require 'moment'
-print = console.log
+exports.print = print = console.log
 clearl =  ->
 	process.stdout.clearLine()
 	process.stdout.cursorTo 0
+
+
 
 printl = (str) ->
 	process.stdout.write str.toString()
@@ -12,7 +14,7 @@ exports.log  =  _log = (pnrstatus) ->
 	#print pnrstatus
 	if pnrstatus.data.chart_prepared is true
 		clearl()
-		print '*** Chart prepared ***'
+		print '\n*** Chart prepared ***'
 		
 		print ''
 		d = pnrstatus.data
@@ -24,6 +26,7 @@ exports.log  =  _log = (pnrstatus) ->
 		print 'Seats - '
 		for passenger in pnrstatus.data.passenger
 			print "\t#{passenger.status}"	
+		print()	
 	else
 		clearl()
 		ctime = moment().format('DD-MMM-YYYY h:mm:ss a')
