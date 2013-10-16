@@ -18,3 +18,6 @@ pnr-status 8216477093
 ```
 
 Checkout [tusharmath.github.io](http://tusharmath.github.io/articles/pnr-status) for more information.
+
+##Chrome Application 
+If you are the kind of person who prefers to have a user interface then the [Chrome PNR App](https://github.com/tusharmath/chrome-pnr-status) is for you.
