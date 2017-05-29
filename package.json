@@ -31,10 +31,10 @@
     }
   ],
   "devDependencies": {
-    "grunt-release": "0.5.x"
+    "grunt-release": "~0.14.0"
   },
   "dependencies": {
-    "minimist": "0.0.x",
+    "minimist": "~1.2.0",
     "moment": "*",
     "coffee-script": "*"
   }
